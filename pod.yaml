@@ -4,7 +4,7 @@ metadata:
   name: meupod
 spec:
   containers:
-    name: site
+  - name: site
     image: fabricioveronez/web-page:blue
     ports:
-      containerPort: 80
+    - containerPort: 80
